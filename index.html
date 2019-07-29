@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RaizTecnologia.com</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<!--Import CSSs da pagina-->
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<meta charset="utf-8">
+</head>
+<body id="body">
+	<!--<?php
+		//require_once 'html/header.html';
+	?>-->
+	<!--Cabeçalho da página, Retirar antes de finalizar por questão de padronização-->
+	    <header>
+	        <div id="header" class="navbar-fixed">
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+	          <nav>
+	              <div class="nav-wrapper teal darken-2">
+	                  <a style="margin-left: 1%;" id="logo" href="../index.php" class="brand-logo"> <i class="large material-icons">local_shipping</i>RaizTecnologia.com</a>
+
+	                  <ul id="nav-mobile" id="menu" class="right hide-on-med-and-down">
+	                      <li><a href="">Lorem</a></li>
+	                      <li><a href="">Ipsum</a></li>
+	                      <li><a href="">Dolor</a></li>
+	                            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+	                  </ul>
+	              </div>
+	          </nav>
+	        </div>
+    	</header>
+    	<!--Cartão de entrada do site-->
+		<div>
+			<div class="row">
+				<div class="col s6 offset-s3">
+				  <div class="card">
+				    <div class="card-image">
+				      <img src="RaizTecnologia.png">
+				      <a class="btn-floating halfway-fab waves-effect waves-light teal lighten-2"><i class="material-icons">local_shipping</i></a>
+				    </div>
+				    <div class="card-content">
+				      <p>A Empresa Raiz Tecnologia, Somos Experientes em transportar mercadorias de pequeno e grande porte, de norte a sul e em tempo recorde. [...]Ipsum lorem Dolor Ernat</p>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<!-- Atrativo para comprar -->
+		<div class="container center">
+			<div>
+				<h5 class="flow-text center">Sua mercadoria transportada para qualquer lugar do Brasil.<br /> Veja como funciona:</h5>
+			</div>
+			<div class="tabela ">
+				<table class="centered responsive-table">
+					<tr>
+						<td><img src="img/dados-da-mercadoria.png"></td>
+						<td><img src="img/escolha-a-transportadora.png"></td>
+						<td><img src="img/aguarde-a-coleta.png"></td>
+						<td><img src="img/informe-o-endereco.png"></td>
+						<td><img src="img/rastreie-sua-carga.png"></td>
+					</tr>
+					<tr>
+						<td><p>Preencha os dados <br /> da sua mercadoria.</p></td>
+						<td><p>Escolha a <br /> transportadora.</p></td>
+						<td><p>Informe o <br /> endereço.</p></td>
+						<td><p>Aguarde a <br /> coleta.</p></td>
+						<td><p>Rastreie sua <br /> mercadoria.</p></td>
+					</tr>
+				</table>
+				<a style="margin-top: 2%; margin-bottom: 5%" class="waves-effect waves-light btn-large color teal lighten-2" href=""><i class="material-icons left hide-on-med-and-down">local_shipping</i>Faça um orçamento<i class="material-icons right hide-on-med-and-down">local_shipping</i></a>
+				
+			</div>
+
+
+		</div>
+
+	<!--JavaScript no final do corpo otimiza o carregamento da página-->
+	<script type="text/javascript" src="js/materialize.min.js">
+
+	</script>
+</body>
+<!--<?php
+	//require_once 'html/footer.html';
+?>-->
+
+<!--Rodapé da página, Retirar antes de finalizar por questão de padronização-->
+<style type="text/css">
+	body {
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+	}
+	main {
+		flex: 1 0 auto;
+	}
+</style>
+<footer class="page-footer teal lighten-2" style="margin-bottom: 0%">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+            <h5 class="white-text">Kristyan</h5>
+            <p class="grey-text text-lighten-4">A Empresa Raiz Tecnologia, Somos Experientes em transportar mercadorias de pequeno e grande porte, de norte a sul e em tempo recorde. [...]Ipsum lorem Dolor Ernat</p>
+            </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="../index.php">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Contrate</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright todos os direitos reservados...
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+    </div>
+
+      <!-- Dropdown Trigger -->
+  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
+  		document.addEventListener('DOMContentLoaded', function() {
+			var elems = document.querySelectorAll('.dropdown-trigger');
+			var instances = M.Dropdown.init(elems, options);
+		});
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a href="#!">three</a></li>
+    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+  </ul>
+</footer>
+</html>
